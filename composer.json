@@ -1,0 +1,15 @@
+{
+    "name": "caue-alves/monitorador-de-notas",
+    "description": "A package 4schools",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "caue-alves",
+            "email": "caue.mendes.rodrigues.laves@gmail.com"
+        }
+    ],
+    "require": {
+        "ext-pdo": "*"
+    }
+}
