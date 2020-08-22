@@ -11,3 +11,7 @@ The project uses:
 
 # Download
 You can download the project by [this link](https://github.com/caue-alves/PHP-For-Schools/archive/master.zip)
+or using the command in your Git Bash:
+```
+git pull https://github.com/caue-alves/PHP-For-Schools master
+```
