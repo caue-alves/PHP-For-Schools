@@ -8,3 +8,6 @@ The project uses:
 - SQLite;
 - PHP;
 - PDO.
+
+# Download
+You can download the project by [this link](https://github.com/caue-alves/PHP-For-Schools/archive/master.zip)
