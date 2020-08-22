@@ -15,3 +15,7 @@ or using the command in your Git Bash:
 ```
 git pull https://github.com/caue-alves/PHP-For-Schools master
 ```
+or 
+```
+git clone https://github.com/caue-alves/PHP-For-Schools master
+```
