@@ -12,13 +12,7 @@ abstract Class Pessoa
     {
         $this->nome = $TheName;
         $this->senha = $ThePass;
-        $nf = [];
-        for ($c = 0; $c <= 4; $c += 1) {
-            $n = round(rand(0, 9));
-            $nf[] = $n;
-        }
-        $nf = implode("", $nf);
-        $this->id = new Id($nf);
+        $this->id = id::getTheId();
     }
 
     public function getNome() 
@@ -28,7 +22,7 @@ abstract Class Pessoa
 
     public function getId() 
     {
-        return $this->id->getTheId();    
+        return $this->id;   
     }
 
     public function getSenha() 

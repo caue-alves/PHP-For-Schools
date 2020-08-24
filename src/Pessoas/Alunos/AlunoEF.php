@@ -30,3 +30,6 @@ Class AlunoEF extends Pessoa
         return $media / sizeof($this->notas);
     }
 }
+
+$EO = new AlunoEF("Eu", "Eu");
+echo $EO->getId();
