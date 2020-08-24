@@ -1,6 +1,6 @@
 <?php
 
-require_once "../../infra/id.php";
+require_once "../../../infra/id.php";
 
 abstract Class Pessoa 
 {
