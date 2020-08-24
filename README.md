@@ -21,5 +21,5 @@ git clone https://github.com/caue-alves/PHP-For-Schools
 ```
 and after run in your composer project
 ```
-composer require ext-pdo/*
+composer dumpautoload
 ```
