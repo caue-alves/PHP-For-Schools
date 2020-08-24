@@ -1,11 +1,16 @@
 <?php
 
+require_once("../vendor/autoload.php");
 require_once("Aluno.php");
-require_once("DataBase.php");
+require_once("../infra/DataBase.php");
 
-$aluno1 = new Aluno("ZEZIN", "cauthiever10");
+$aluno1 = new Aluno("seuzeah", "cauthiever10");
 
-$pdo = new PDO("sqlite:".  __DIR__ . "alunos.sqlite");
+$pdo = new \PDO("sqlite:".  __DIR__ . "alunos.sqlite");
+$pdo->setAttribute( PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
-$studentsDB = new DataBase("alunos.sqlite", "students");
-$studentsDB->INSERT($pdo, ["id", "nome", "senha"], [$aluno1->getId(), $aluno1->getName(), $aluno1->getPassword()]);
+$studentsDB = new DataBase("alunos.sqlite", "students", $pdo);
+$studentsDB->INSERT("nome, ids, senha",
+                            "{$aluno1->getName()},
+                            {$aluno1->getId()}, 
+                            {$aluno1->getPassword()}");
