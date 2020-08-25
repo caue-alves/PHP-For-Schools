@@ -8,3 +8,4 @@ Class Nota extends Atividade
         return True;
     }
 }
+?>

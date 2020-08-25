@@ -1,10 +1,10 @@
 <?php
 
 require_once("../vendor/autoload.php");
-require_once("Aluno.php");
+require_once("Pessoas/Alunos/AlunoEF.php");
 require_once("../infra/DataBase.php");
 
-$aluno1 = new Aluno("seuzeah", "cauthiever10");
+$aluno1 = new AlunoEF("seuzeah", "cauthiever10");
 
 $pdo = new \PDO("sqlite:".  __DIR__ . "alunos.sqlite");
 $pdo->setAttribute( PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);

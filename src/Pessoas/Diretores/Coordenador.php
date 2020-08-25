@@ -1,6 +1,8 @@
 <?php
 
-abstract Class Coordenador
+require_once "../Pessoa.php";
+
+abstract Class Coordenador extends Pessoa
 {
     private $setor;
 
