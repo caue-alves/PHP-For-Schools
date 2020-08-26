@@ -8,6 +8,7 @@ A apllication in `PHP` for note control
 
 # Technologies
 The project uses:
+- `POO`
 - `Git`;
 - `Composer`;
 - `SQLite`;
