@@ -1,3 +1,5 @@
+<img align="right" class = "img" src="https://github.com/caue-alves/PHP-For-Schools/blob/master/img/php-1-logo-png-transparent.png?raw=true" height=300px width=500px>
+
 # PHP-For-Schools
 ![](https://img.shields.io/github/repo-size/caue-alves/PHP-For-Schools)
 ![](https://img.shields.io/github/commit-activity/m/caue-alves/PHP-For-Schools)
