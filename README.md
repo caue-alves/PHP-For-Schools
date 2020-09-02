@@ -31,3 +31,4 @@ and after run in your composer project
 ```
 composer dumpautoload
 ```
+Enjoy!
