@@ -31,4 +31,9 @@ and after run in your composer project
 ```
 composer dumpautoload
 ```
+you can run in composer:
+```
+composer require caue-alves/monitorador-de-notas
+```
 Enjoy!
+
