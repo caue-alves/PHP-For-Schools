@@ -2,7 +2,7 @@
 
 # PHP For Schools
 ![](https://img.shields.io/github/repo-size/caue-alves/PHP-For-Schools?color=orange)
-![](https://img.shields.io/github/commit-activity/m/caue-alves/PHP-For-Schools)
+![](https://img.shields.io/github/commit-activity/m/caue-alves/PHP-For-Schools?color=blueviolet)
 ![](https://img.shields.io/github/languages/top/caue-alves/PHP-For-Schools?color=blueviolet)
 
 A apllication in `PHP` for note control
